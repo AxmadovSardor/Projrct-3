@@ -9,7 +9,7 @@ body{
     padding: 0px;
     margin: 0px;
     height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(1.jpg);
+    background: black;
     width: 100%;
     background-repeat: no-repeat;
     background-size:contain;
@@ -17,22 +17,24 @@ body{
 .main{
     width: 100%;
     height: 110%;
-    padding-top: 20px;
 }
 
 .navbar{
+    background-color: rgba(97, 97, 97, 0.306);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     height: 75px;
-    margin-top: 5px;
+    padding-bottom: 20px;
     align-items: center;
 }
 .navbar {
-    position: absolute; 
+    display: flex;
+    position: sticky; 
+    top: 3px;
     z-index: 1000;
-    
+    align-items:end;
     background-color: (rgb(10, 148, 0, ) );
 }
   
@@ -42,12 +44,10 @@ body{
     height: 70px;
 }
 .icon img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+
 }
 .logo{
-    color: grey;
+    color: white;
     font-size: 35px;
     font-family: Arial;
     padding-left: 0px;
@@ -154,16 +154,23 @@ ul li a:hover{
 
 .content{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     width: 90%;
     height: auto;
     margin-top: 140px;
     margin-left: 5%;
     color: white;
-    position: relative;   
+    position: relative;
 }
+.introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .content {
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(255, 255, 255, 0.55);
     border-radius: 15px;
 }
 .content .par{
@@ -178,7 +185,7 @@ ul li a:hover{
     font-family: 'Times New Roman';
     font-size: 50px;
     padding-left: 20px;
-    margin-top: 9%;
+    margin-top: 3%;
     letter-spacing: 2px;
 }
 
@@ -250,7 +257,7 @@ ul li a:hover{
     background: rgb(50,103,244);
     background: linear-gradient(270deg, rgba(50,103,244,1) 0%, rgba(1,30,121,1) 50%, rgba(43,35,0,1) 100%);
     height: 100%;
-    width: 10%;
+    width: 11%;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 
@@ -261,12 +268,26 @@ ul li a:hover{
     padding: 5px;
 }
 
+.biz{
+    padding: 20px;
+}
+
+.biz img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
 @media screen and (max-width: 750px) {
     .content{
         flex-direction: column;
     }
 
   }
+
+.content2{
+    color: #ffffff;
+}
 
 .last{
     margin-top: 200px;
@@ -279,8 +300,15 @@ ul li a:hover{
 .shortcut{
     display: flex;
     flex-direction: row;
-    padding-top: 150px; 
-    padding-left: 50px;
+    padding-top: 150px;
+}
+.listcha{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
 }
 .shlogo{
     height: 50px;
@@ -316,7 +344,7 @@ ul li a:hover{
 @media screen and (max-width: 630px) {
     .shortcut{
         display: flex;
-        
+        flex-direction: row;
         align-items: baseline;
         padding-left: 5px;
     }
@@ -327,6 +355,10 @@ ul li a:hover{
     .pm{
         display: flex;
         right: 0px;
+    }
+    .listcha{
+        display: flex;
+        flex-direction: column;
     }
   }
 
