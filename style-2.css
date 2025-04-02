@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 1000px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(1.jpg);
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.main{
+    width: auto;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.navbar{
+    width: 1335px;
+    height: 75px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.navbar {
+    position: absolute; 
+    z-index: 1000;
+    background-color: (rgb(10, 148, 0, ) );
+}
+  
+
+.icon{
+    width: 130px;
+    float: left;
+    height: 70px;
+}
+.icon img {
+    margin-top: -10px;
+    padding-left: 10px;
+    width: 100px;
+}
+.logo{
+    color: grey;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 0px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 0;
+}
+
+.menu{
+    width: 1020px;
+    float: left;
+    height: 70px;
+    margin-left: 30px;
+    padding-top: 17px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 19px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+    color: red;
+}
+
+.content{
+    width: 90%;
+    height: auto;
+    margin-top: 140px;
+    margin-left: 5%;
+    position: relative;
+    border: 0px;
+}
+.content{
+    background-color:white;
+    /* background: linear-gradient( 180deg, white, rgb(201, 255, 255), rgb(255, 207, 207)); */
+    border-radius: 15px;
+    z-index: 10px;
+}
+.content .jadval{
+    margin: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    line-height: 15px;
+}
+
+.content .jadval td{
+    height: 120px;
+    width: 1100px;
+    text-align: center; 
+}
+.content .jadval .fan{
+    font-weight: bold;
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 30px;
+}
+.content .jadval .xona{
+    font-weight: normal;
+    vertical-align: bottom;
+    font-family: 'Times New Roman';
+    font-size: 11px;
+}
+
+.content .b{
+    font-size: 20px;
+}
+
+.jadval th p{
+    font-style: normal;
+}
+.content th, td{
+    border: 2px solid black;
+}
+.content .Kitoblar{
+    padding: 20px;
+    height: auto;
+    width: auto;
+}
+
+.soz{
+    text-align: center;
+    padding-left: 100px;
+}
+
+.nomi{
+    width: 200px;
+    text-align: center;
+
+}
+.link-button{
+    width: 200px;
+    height: 60px;
+    background-color: #0f7000;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4 ease-in-out;
+}
+
+.book_link{
+    padding-left: 5%;
+    width:90%;
+}
+
+.book_link td{
+    border: 0px solid;
+}
+
+.last{
+    margin-top: 800px;
+    height: auto;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 98%, rgba(0,212,255,0) 100%);
+}
+
+.shortcut{
+    padding-left: 50px;
+    border: 0px;
+    padding-top: 110%;
+    padding-bottom: 20px;
+}
+.shlogo{
+    height: 50px;
+    width: 20%;
+}
+
+.menucha{
+    padding-left: 40px;
+    width: 20%;
+    line-height: 30px;
+    
+}
+
+.link{
+    vertical-align: bottom;
+    text-decoration: none;
+    color: white;
+    
+    letter-spacing: 3px;
+}
+.menucha a{
+    transition: 0.3s ease-in-out;
+}
+.link :hover{
+    color: red;
+}
