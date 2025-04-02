@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 1000px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(1.jpg);
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.main{
+    width: auto;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.navbar{
+    width: 1335px;
+    height: 75px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.navbar {
+    position: absolute; 
+    z-index: 1000;
+    background-color: (rgb(10, 148, 0, ) );
+}
+  
+
+.icon{
+    width: 130px;
+    float: left;
+    height: 70px;
+}
+.icon img {
+    margin-top: -10px;
+    padding-left: 10px;
+    width: 100px;
+}
+.logo{
+    color: grey;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 0px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 0;
+}
+
+.menu{
+    width: 1020px;
+    float: left;
+    height: 70px;
+    margin-left: 30px;
+    padding-top: 17px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 19px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+    color: red;
+}
+
+.content{
+    width: 90%;
+    height: auto;
+    margin-top: 15%;
+    margin-left: 5%;
+    border: 0px;
+}
+.content{
+    background-color:white;
+    /* background: linear-gradient( 180deg, white, rgb(201, 255, 255), rgb(255, 207, 207)); */
+    border-radius: 15px;
+    z-index: 10px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.content .bosh{
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    padding-top: 1%;
+}
+.content .Kitoblar{
+    padding: 20px;
+    height: auto;
+    width: auto;
+}
+
+.kitob .soz{
+    text-align: center;
+    padding-left: 100px;
+}
+
+.download{
+    cursor: pointer;
+    height: 100px;
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    width: 250px;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 15px;
+}
+
+.kitob{
+    height: auto;
+    width: 100%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.pdf{
+    padding: 20px;
+    width: 660px;
+    border-radius: 10px;
+}
+.yuklash{
+    border-radius: 10px;
+    padding-left: 100px;
+}
+
+.last{
+    position: relative;
+    padding-top: -120px;
+    width: 100%;
+    height: 30vw;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 90%, rgba(0,212,255,0) 100%);
+}
+
+.shortcut{
+    padding-left: 50px;
+    border: 0px;
+    bottom: 0px;
+    padding-top: 6vw;
+}
+.shlogo{
+    height: 50px;
+    width: 20%;
+}
+
+.menucha{
+    padding-left: 40px;
+    width: 20%;
+    line-height: 30px;
+    
+}
+
+.link{
+    vertical-align: bottom;
+    text-decoration: none;
+    color: white;
+    
+    letter-spacing: 3px;
+}
+.menucha a{
+    transition: 0.3s ease-in-out;
+}
+.link :hover{
+    color: red;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
